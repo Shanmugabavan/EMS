@@ -9,17 +9,15 @@ public class ConfigRepository
     public ConfigRepository(IConfiguration configuration)
     {
         _configuration = configuration;
-
     }
 
     public void SetRepository()
     {
-        ConfigRepo.ReadConection = GetConnectionString();
+        ConfigRepo.ReadConnection = GetConnectionString();
         ConfigRepo.WriteConnection = GetConnectionString();
     }
-    
 
-    public string GetConnectionString()
+    private string GetConnectionString()
     {
         return _configuration.GetConnectionString("DefaultConnection");
     }

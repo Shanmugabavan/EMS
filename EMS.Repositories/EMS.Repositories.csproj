@@ -6,4 +6,18 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\EMI.DTO\EMI.DTO.csproj" />
+    <ProjectReference Include="..\EMS.Entity\EMS.Entity.csproj" />
+  </ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="CSI.NET.BASE.CommonRepository" Version="6.0.0-beta-0003" />
+		<PackageReference Include="CSI.NET.BASE.Confluent.Kafka" Version="6.0.0-beta-0006" />
+		<PackageReference Include="CSI.NET.BASE.DataAccess.GenericRepository" Version="6.0.1-beta-0011-gb1293fa7ea" />
+		<PackageReference Include="Microsoft.Extensions.Logging" Version="6.0.0" />
+		<PackageReference Include="TimePeriodCore" Version="1.0.0" />
+	</ItemGroup>
+
+
 </Project>

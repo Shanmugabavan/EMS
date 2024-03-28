@@ -6,4 +6,24 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+	<ItemGroup>
+		<PackageReference Include="CqrsLite" Version="0.26.0" />
+		<PackageReference Include="CSI.NET.BASE.Confluent.Kafka" Version="6.0.0-beta-0006" />
+		<PackageReference Include="CSI.NET.BASE.DTO" Version="6.0.0-beta-0004" />
+		<!--<PackageReference Include="CSI.NET.BASE.EventBusRabbitMQ" Version="1.4.6" /> -->
+		<PackageReference Include="CSI.NET.BASE.Notifications.Models" Version="2.0.233" />
+		<PackageReference Include="CSI.NET.BASE.ResilientHttpClient" Version="6.0.0-beta-0006" />
+		<PackageReference Include="CSI.NET.BASE.Utilities" Version="6.0.0-beta-0007" />
+		<PackageReference Include="CSI.NET.Extensions.Base.DTO" Version="2.0.498" />
+		<PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="6.0.0" />
+		<PackageReference Include="TimePeriodCore" Version="1.0.0" />
+		<PackageReference Include="TimeZoneConverter" Version="3.2.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\EMI.DTO\EMI.DTO.csproj" />
+	  <ProjectReference Include="..\EMS.Entity\EMS.Entity.csproj" />
+	  <ProjectReference Include="..\EMS.Repositories\EMS.Repositories.csproj" />
+	</ItemGroup>
+
 </Project>

@@ -12,6 +12,8 @@
   </ItemGroup>
 
   <ItemGroup>
+	  <PackageReference Include="CSI.NET.BASE.Configuration.ConfigServer" Version="6.0.0-beta-0001" />
+	  <PackageReference Include="CSI.NET.BASE.DataAccess.Entities" Version="6.0.0-beta-0001" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.28" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.28">
       <PrivateAssets>all</PrivateAssets>

@@ -10,7 +10,7 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 
 namespace EMS.Entity.Migrations
 {
-    [DbContext(typeof(EMSFunctionContextWrite))]
+    [DbContext(typeof(EmsFunctionContextWrite))]
     partial class EMSFunctionContextWriteModelSnapshot : ModelSnapshot
     {
         protected override void BuildModel(ModelBuilder modelBuilder)

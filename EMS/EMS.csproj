@@ -19,6 +19,28 @@
   </ItemGroup>
 
 	<ItemGroup>
+		<PackageReference Include="CSI.NET.BASE.APM" Version="6.0.0-beta-0002" />
+		<PackageReference Include="CSI.NET.BASE.Audit" Version="6.0.1-beta-0004" />
+		<PackageReference Include="CSI.NET.BASE.AuditMiddleWare" Version="6.0.1-beta-0004" />
+		<PackageReference Include="CSI.NET.BASE.Configuration.ConfigServer" Version="6.0.0-beta-0001" />
+		<PackageReference Include="CSI.NET.BASE.CorrelationId" Version="1.2.5-b2" />
+		<PackageReference Include="CSI.NET.BASE.DataAccess.GenericRepository" Version="6.0.1-beta-0011-gb1293fa7ea" />
+		<PackageReference Include="CSI.NET.BASE.DBProvider" Version="6.0.0-beta-0008" />
+		<PackageReference Include="CSI.NET.BASE.DBProviderOptions" Version="6.0.0-beta-0008" />
+		<PackageReference Include="CSI.NET.BASE.Diagnostics.HealthChecks" Version="1.0.0" />
+		<PackageReference Include="CSI.NET.BASE.Documentation" Version="6.0.0-beta-0010-g7399962591" />
+		<!--<PackageReference Include="CSI.NET.BASE.EventBusRabbitMQ" Version="1.4.6" /> -->
+		<PackageReference Include="CSI.NET.BASE.Exceptions" Version="6.0.0-beta-0004" />
+		<PackageReference Include="CSI.NET.BASE.GeneralServices" Version="3.0.0" />
+		<PackageReference Include="CSI.NET.BASE.Infrastructure.Extensions" Version="1.0.2" />
+		<PackageReference Include="CSI.NET.BASE.Mvc.Filters" Version="1.0.6" />
+		<PackageReference Include="CSI.NET.BASE.Notifications.Models" Version="2.0.233" />
+		<PackageReference Include="CSI.NET.BASE.Resiliency.Abstractions" Version="6.0.0-beta-0006" />
+		<PackageReference Include="CSI.NET.BASE.Resiliency.AspNetExtenstions" Version="6.0.0-beta-0006" />
+		<PackageReference Include="CSI.NET.BASE.Serilog.Sinks.KafkaV2" Version="1.0.0-beta3" />
+		<PackageReference Include="CSI.NET.BASE.Confluent.Kafka" Version="6.0.0-beta-0006" />
+		<PackageReference Include="CSI.NET.BASE.SerilogLogging" Version="6.0.0-beta-0003" />
+		<PackageReference Include="CSI.NET.BASE.Utilities" Version="6.0.0-beta-0007" />
 		<PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.28" />
 		<PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.28">
 			<PrivateAssets>all</PrivateAssets>

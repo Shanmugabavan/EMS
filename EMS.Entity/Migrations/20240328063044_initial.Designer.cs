@@ -11,7 +11,7 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 
 namespace EMS.Entity.Migrations
 {
-    [DbContext(typeof(EMSFunctionContextWrite))]
+    [DbContext(typeof(EmsFunctionContextWrite))]
     [Migration("20240328063044_initial")]
     partial class initial
     {
