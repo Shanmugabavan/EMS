@@ -46,4 +46,19 @@ public class EmployeeController : BaseController
             throw;
         }
     }
+    
+    [HttpPut]
+    [Route("update/{id}")]
+    public async Task<Employee> UpdateEmployee(Guid id, [FromBody] Employee employee)
+    {
+        try
+        {
+            return await _writeService.UpdateEmployee(id, employee);
+        }
+        catch (Exception ex)
+        {
+            _logger.LogError(ex.StackTrace);
+            throw;
+        }
+    }
 }
