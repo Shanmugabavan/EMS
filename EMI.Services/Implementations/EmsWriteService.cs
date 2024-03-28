@@ -18,4 +18,10 @@ public class EmsWriteService : IEmsWriteService
         var employeeInstance = await _employeeWriteRepository.CreateEmployeeAsync(employee);
         return employeeInstance;
     }
+    
+    public async Task<Employee> UpdateEmployee(Guid id, Employee employee)
+    {
+        var employeeInstance = await _employeeWriteRepository.UpdateEmployeeAsync(id, employee);
+        return employeeInstance;
+    }
 }
