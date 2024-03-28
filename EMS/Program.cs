@@ -15,6 +15,11 @@ builder.Services.AddDbContext<EmsFunctionContextWrite>(options =>
 {
     options.UseNpgsql(ConfigRepo.WriteConnection);
 });
+builder.Services.AddDbContext<EmsFunctionContextRead>(options =>
+{
+    options.UseNpgsql(ConfigRepo.ReadConnection);
+});
+
 builder.Services.AddAppDependencies(builder.Configuration);
 var app = builder.Build();
 

@@ -10,8 +10,12 @@ public static class RegisterDependencies
     public static void AddAppDependencies(this IServiceCollection services, IConfiguration configuration)
     {
         services.AddScoped<IEmsWriteService, EmsWriteService>();
+        services.AddScoped<IEmsReadService, EmsReadService>();
+        
         services.AddSingleton(configuration);
+        
         services.AddScoped<IEmployeeWriteRepository, EmployeeWriteRepository>();
+        services.AddScoped<IEmployeeReadRepository, EmployeeReadRepository>();
     }
 }
 
